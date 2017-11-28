@@ -216,15 +216,13 @@ input[type=submit] {
 @media screen and (max-width: 920px) {
   .container section{
     max-width: 95%;
-    margin: auto;
+    margin-bottom: 15px;
   }
   #masthead {
-    position: static;
     overflow-x: hidden;
   }  
   #main-container{
     margin:0 15px 0 15px;
-    padding-top: 0;
   }
   .sidebar{
     float: left;
@@ -237,12 +235,12 @@ input[type=submit] {
     margin-bottom: 15px;
   }
   #masthead {
-    position: static;
+/*    position: static;*/
     overflow-x: hidden;
   }  
   #main-container{
-    margin:0 15px 15px 15px;
-    padding-top: 0;
+    margin:0 15px 0 15px;
+
   }
   .sidebar{
     float: left;
